@@ -8,7 +8,6 @@ if (!Mongo_URL){
 }
 
 const client = new MongoClient (Mongo_URL);
-
 const dbName = "";
 
 await client.connect ();
